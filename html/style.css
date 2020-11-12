@@ -3,10 +3,18 @@ body {
   }
   h1 {
     color: blue;
+    font-family: 'Lalezar', cursive;
   }
   p {
-    color: red;
+    color: rgb(72, 72, 72);
+    font-family: 'Montserrat';
+    font-size: medium;
+    text-align: center;
     }
+#question{
+  text-align: left;
+  font-size: larger;
+}
 
 .body1{
     color: aqua;

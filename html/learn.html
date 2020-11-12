@@ -5,24 +5,28 @@
     <title>Test Page</title>
     <style> body {background-color: gray;}</style>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+<link href="https://fonts.googleapis.com/css2?family=Lalezar&family=Montserrat:wght@100&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <h1>Hi Woarld!</h1>
+    <h1>مرحبا بالعالم هنا !ـ</h1>
     <div class="body1">
         <p>this is my first html file after long time</p>
         <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
     </div>
-    <form>
-        
-        <input type="text" name="text" value="Email">
-        <input type="submit" value="GO">
-    </a>
-        <label for="in1">Choose 1</label>
-        <input type="radio" id="in1" name="Q1" value="">
+
+    <form class="infoForm" action="thank.html" method="GET">
+        <p id="question">Question1: </p>
+        <label for="in1" aria-required="false">Choose 1</label>
+        <input type="radio" id="in1" name="Q1" value="" aria-required="true"> 
 
         <label for="in2">Choose 2</label>
-        <input type="radio" id="in2" name="Q1" value="">
+        <input type="radio" id="in2" name="Q1" value="" aria-required="true"><br>
+       
+        <input type="text" name="text" value="Email"> <br>
+        <input type="submit" value="GO"> 
     </form>
+
 </body>
 </html>
