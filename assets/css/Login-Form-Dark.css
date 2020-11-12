@@ -67,8 +67,8 @@
 }
 
 .login-dark form .btn-primary:active {
-  transform: translateY(5px);
-  transform: scaleX(7px);
-  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+  transform: translateY(5px) scaleX(7px);;
+  
+  
 }
 
